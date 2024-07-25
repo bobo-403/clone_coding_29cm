@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: "Lato", sans-serif;
+        }
+        ul li{
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .top{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 50px 30px 50px;
+            text-transform: uppercase;
+        }
+        #title{
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 4px;
+        }
+        div[class='top'] span{
+            padding: 0px 10px 0px 4px;
+            font-size: 10px;
+        }
+        .main_menu{
+            display: inline-block;
+            padding: 0px 10px 20px 50px;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        ul[class='main_menu'] li{
+            letter-spacing: 1px;
+            padding: 0px 10px;
+        }
+        ul[class='main_menu'] li a:hover{
+            border-bottom: solid 6px black;
+        }
+
+        .product_menu{
+            height: 34px;
+            display: inline-block;
+            padding: 0px 10px 50px 60px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        ul[class='product_menu'] li{
+            margin: 0px 10px;
+            padding: 5px 0px;
+        }
+
+        .etc_menu{
+            height: 34px;
+            display: inline-block;
+            border-left: solid 1px #605c5c;
+        }
+        ul[class='etc_menu'] li{
+            margin: 0px 15px;
+            padding: 5px 0px;
+        }
+        ul[class='etc_menu'] li a{
+            color: grey;
+            font-style: italic;
+        }
+
+        ul[class='product_menu'] li:hover,
+        ul[class='etc_menu'] li:hover{
+            border-bottom: solid 4px black;
+        }
+
+
+        
