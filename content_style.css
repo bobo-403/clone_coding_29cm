@@ -1,0 +1,92 @@
+img{
+    vertical-align: top;
+}
+.content{
+    display: flex;
+    height: 5300px;
+    border-bottom: 1px solid rgb(212, 203, 203);
+}
+.left_content{
+    width: 590px;
+    padding-right: 30px;
+}
+.right_content{
+    
+    border-left: 1px solid rgb(212, 203, 203);
+}
+
+
+.inquiry{
+    margin: 0px 50px;
+}
+
+.button{
+    display: inline-block;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    border-radius: 2px;
+    line-height: 30px;
+    margin-right: 1px;
+    font-size: 15px;
+}
+
+.feed{
+    width: 330px;
+    padding: 0px 28px;
+    margin-top: 80px;
+}
+
+hr{
+    width: 60%;
+    height: 4px;
+    background-color: black;
+    border: 0px;
+}
+
+.feed_image{
+    padding-top: 30px;
+}
+
+.feed_title{
+    font-weight: bold;
+    font-size: 23px;
+    padding: 12px 0px;
+}
+
+.brand_name{
+    font-size: 11px;
+    font-weight: bold;
+}
+.product_name{
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+.price{
+    font-size: 11px;
+}
+.sale_price{
+    font-size: 11px;
+    color: red;
+}
+.item_list{
+    margin-top: 25px;
+    border-top: 1px solid rgb(212, 203, 203); 
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    height: 80px;   
+    display: flex;
+    align-items: center
+}
+
+.item_info{
+    padding-left: 20px;
+}
+
+.heart{
+    padding: 30px;
+    border-left: 1px solid rgb(212, 203, 203);  
+}
