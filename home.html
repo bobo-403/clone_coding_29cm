@@ -6,20 +6,109 @@
     <title>감도 높은 취향 셀렉트샵 29CM</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        img{
+            vertical-align: top;
+        }
+        .content{
+            display: flex;
+        }
+        .left_content{
+            width: 590px;
+            padding-right: 30px;
+        }
+        .right_content{
+            display: inline-block;
+            border-left: 1px solid rgb(212, 203, 203);
+        }
         
+        .inquiry{
+            margin: 0px 50px;
+        }
+
+        .button{
+            display: inline-block;
+            height: 30px;
+            width: 90px;
+            background-color: rgb(57, 56, 56);
+            color: white;
+            border-radius: 2px;
+            line-height: 30px;
+            margin-right: 1px;
+            font-size: 15px;
+        }
         
+        .feed{
+            width: 330px;
+            padding: 0px 28px;
+            margin-top: 80px;
+        }
+        
+        hr{
+            width: 60%;
+            height: 4px;
+            background-color: black;
+            border: 0px;
+        }
+
+        .feed_image{
+            padding-top: 30px;
+        }
+
+        .feed_title{
+            font-weight: bold;
+            font-size: 23px;
+            padding: 12px 0px;
+        }
+        
+        .brand_name{
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .product_name{
+            font-size: 11px;
+            padding-bottom: 10px;
+        }
+        .price{
+            font-size: 11px;
+        }
+        .sale_price{
+            font-size: 11px;
+            color: red;
+        }
+        .item_list{
+            margin-top: 25px;
+            border-top: 1px solid rgb(212, 203, 203); 
+            display: flex;
+            justify-content: space-between;
+        }
+        .item{
+            height: 80px;   
+            display: flex;
+            align-items: center
+        }
+
+        .item_info{
+            padding-left: 20px;
+        }
+
+        .heart{
+            padding: 30px;
+            border-left: 1px solid rgb(212, 203, 203);  
+        }
+
     </style>
 </head>
 <body>
     <div class="top">
         <div id="title"><a href="#">29cm</a></div>
         <ul>
-            <li><img src="./image/mypage.png" alt=""><a href="#" id="customer_menu">my page</a></li>
-            <li><img src="./image/mylike.png" alt=""><a href="#" id="customer_menu">my like</a></li>
-            <li><img src="./image/shoppingbag.png" alt=""><a href="#" id="customer_menu">shopping bag</a></li>
-            <li><img src="./image/login.png" alt=""><a href="#" id="customer_menu">login</a></li>
+            <li><a href="#"><img src="./image/menu/mypage.png" alt=""><span>my page</span></a></li>
+            <li><a href="#"><img src="./image/menu/mylike.png" alt=""><span>my like</span></a></li>
+            <li><a href="#"><img src="./image/menu/shoppingbag.png" alt=""><span>shopping bag</span></a></li>
+            <li><a href="#"><img src="./image/menu/login.png" alt=""><span>login</span></a></li>
         </ul>
     </div>
+
     <div>
         <ul class="main_menu">
             <li><a href="#">Special-Order</a></li>
@@ -49,5 +138,207 @@
             <li><a href="#">Lookbook</a></li>
         </ul>
     </div>
+    
+    <div class="content">
+        <div class="left_content">
+            <ul>
+                <li><a href="#"><img src="./image/content/vacance_items.jpg" alt="" style="width: 590px"></a></li>
+                <li><a href="#"><img src="./image/content/archivepke.jpg" alt="" style="width: 590px"></a></li>
+                <li><a href="#"><img src="./image/content/sabre.jpg" alt="" style="width: 590px"></a></li>
+                <li><a href="#"><img src="./image/content/global_brand.jpg" alt="" style="width: 590px"></a></li>
+                <li><a href="#"><img src="./image/content/ownist.jpg" alt="" style="width: 590px"></a></li>
+                <li><a href="#"><img src="./image/content/lenina.jpg" alt="" style="width: 590px"></a></li>
+                <li><a href="#"><img src="./image/content/bedroom_interior.jpg" alt="" style="width: 590px"> </a></li>
+            </ul>
+            
+        </div>
+        <div class="right_content">
+            <p><a href="#"><img src="./image/content/vacance_acc.jpg" alt="" style="width: 385px"></a></p>
+            <ul style="width: 385px">
+                <li class="feed">
+                    <hr>
+                    <div class="feed_image">
+                        <a href="#">
+                            <img src="./image/content/summer_sence.jpg" alt="" style="width: 330px">
+                            <p class="feed_title">여름의 감각</p>
+                            <p>베이지보울은 편안하고 가벼운 소재로 감각적인 스타일을 제안합니다. 일상과 휴양지 그 어디에서든 입을 수 있는 베이지보울의 마지막 여름 컬렉션을 만나보세요.</p>
+                        </a>
+                    </div>
+                    
+                    <div class="item_list">
+                        <div>
+                            <a href="#">
+                                <div class="item">
+                                    <div>
+                                        <img src="./image/product/bageboul_summer_layered_dress.jpg" alt="" width="50px">
+                                    </div>
+                                    <div class="item_info">
+                                        <p class="brand_name">베이지보울</p>
+                                        <p class="product_name">summer layered dress (2color)</p>
+                                        <p class="sale_price">10% 37,800won</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="heart">
+                            <a href="#"><img src="./image/heart.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="item_list">
+                        <div>
+                            <a href="#">
+                                <div class="item">
+                                    <div>
+                                        <img src="./image/product/bageboul_cutting_half_denum_pants.jpg" alt="" width="50px">
+                                    </div>
+                                    <div class="item_info">
+                                        <p class="brand_name">베이지보울</p>
+                                        <p class="product_name">cutting half denum_pants (2color)</p>
+                                        <p class="sale_price">10% 75,600won</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="heart">
+                            <a href="#"><img src="./image/heart.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+                     
+                    
+                </li>
+                <li class="feed">
+                    <hr>
+                    <div class="feed_image">
+                        <a href="#">
+                            <img src="./image/content/special_order.jpg" alt="" style="width: 330px">
+                            <p class="feed_title">오늘의 스페셜오더</p>
+                            <p>오직 29CM에서만 만나볼 수 있는 제품 혹은 구성을 합리적인 가격으로 소개합니다. 잘 만든 제품을 엄선하여 당신의 특별하고 현명한 소비를 도와주는 스페셜오더를 경험해보세요.</p>
+                        </a>
+                    </div>
+          
+                </li>
+                
+            </ul>
+        </div>
+        <div class="right_content">
+            <p><a href="#"><img src="./image/content/bag.jpg" alt="" style="width: 385px"></a></p>
+            <ul style="width: 385px">
+                <li class="feed">
+                    <hr>
+                    <div class="feed_image">
+                        <a href="#">
+                            <img src="./image/content/hay.jpg" alt="" style="width: 330px">
+                            <p class="feed_title">여름의 식탁</p>
+                            <p>덴마크 라이프스타일 브랜드 HAY의 새로운 테이블웨어 컬렉션을 가장 먼저 소개합니다. 다채로운 색감으로 물든 여름의 식탁을 만끽해 보세요. 사진 후기를 남겨주신 분들에게는 HAY의 시그니처 에코백을 증정합니다.</p>
+                        </a>
+                    </div>
+                    
+                    <div class="item_list">
+                        <div>
+                            <a href="#">
+                                <div class="item">
+                                    <div>
+                                        <img src="./image/product/hay1.jpg" alt="" width="50px">
+                                    </div>
+                                    <div class="item_info">
+                                        <p class="brand_name">헤이</p>
+                                        <p class="product_name">[HAY] Barro Salad Bowl Small, 그린 AC469-A601-AB80</p>
+                                        <p class="price">57.000won</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="heart">
+                            <a href="#"><img src="./image/heart.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="item_list">
+                        <div>
+                            <a href="#">
+                                <div class="item">
+                                    <div>
+                                        <img src="./image/product/bageboul_cutting_half_denum_pants.jpg" alt="" width="50px">
+                                    </div>
+                                    <div class="item_info">
+                                        <p class="brand_name">헤이</p>
+                                        <p class="product_name">[HAY] Jug X-Large, 블루 AB428-A604-AB96</p>
+                                        <p class="price">100,000won</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="heart">
+                            <a href="#"><img src="./image/heart.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+                     
+                    
+                </li>
+                <li class="feed">
+                    <hr>
+                    <div class="feed_image">
+                        <a href="#">
+                            <img src="./image/content/ballcap.jpg" alt="" style="width: 330px">
+                            <p class="feed_title">여름 볼캡</p>
+                            <p>베스트셀러 맛집 킬리만의 볼캡을 단독으로 공개합니다. 데일리 룩에 포인트가 되어줄 컬러로 가득 채웠어요. 15+5%</p>
+                        </a>
+                    </div>
+                    
+                    <div class="item_list">
+                        <div>
+                            <a href="#">
+                                <div class="item">
+                                    <div>
+                                        <img src="./image/product/killiman.jpg" alt="" width="50px">
+                                    </div>
+                                    <div class="item_info">
+                                        <p class="brand_name">킬리만</p>
+                                        <p class="product_name">[29CM단독] Killiman happy fresh cap (8color)</p>
+                                        <p class="sale_price">19% 38,760won</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="heart">
+                            <a href="#"><img src="./image/heart.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+
+                    
+                    
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    
+
+    
+    <div class="inquiry">
+        <div>
+            <p style="font-weight: bold">고객센터 1644-0560</p>
+            <p style="font-size: 12px; color: #605c5c;">운영시간 : 평일 09:00 - 17:00 (점심시간: 12:00-13:00 제외)</p>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding-top: 7px;"> 
+            <div>
+                <span class="button"><a href="#" class="button">FAQ</a></span>
+                <span class="button"><a href="#" class="button">1:1 문의</a></span>
+            </div>
+            <div>
+                <img src="./image/brandlogo/insta.png" alt="">
+                <img src="./image/brandlogo/youtube.png" alt="">
+                <img src="./image/brandlogo/apple.png" alt="">
+                <img src="./image/brandlogo/play.png" alt="">
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
