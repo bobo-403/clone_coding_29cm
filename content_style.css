@@ -4,32 +4,13 @@ img{
 .content{
     display: flex;
     height: 5300px;
-    border-bottom: 1px solid rgb(212, 203, 203);
 }
 .left_content{
     width: 590px;
     padding-right: 30px;
 }
 .right_content{
-    
     border-left: 1px solid rgb(212, 203, 203);
-}
-
-
-.inquiry{
-    margin: 0px 50px;
-}
-
-.button{
-    display: inline-block;
-    height: 30px;
-    width: 90px;
-    background-color: rgb(57, 56, 56);
-    color: white;
-    border-radius: 2px;
-    line-height: 30px;
-    margin-right: 1px;
-    font-size: 15px;
 }
 
 .feed{
