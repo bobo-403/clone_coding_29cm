@@ -13,10 +13,14 @@
             text-decoration: none;
             color: black;
         }
+        .top_menu{
+           position: fixed;
+           background-color: white;
+        }
         .top{
             display: flex;
             justify-content: space-between;
-            margin: 50px 50px 30px 50px;
+            padding: 50px 50px 30px 50px;
             text-transform: uppercase;
         }
         #title{

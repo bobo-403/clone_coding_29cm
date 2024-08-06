@@ -3,7 +3,8 @@ img{
 }
 .content{
     display: flex;
-    height: 5300px;
+    padding-top: 268px;
+    
 }
 .left_content{
     width: 590px;
