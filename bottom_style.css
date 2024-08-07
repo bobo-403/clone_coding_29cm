@@ -1,6 +1,6 @@
 .inquiry{
     margin: 0px 50px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .button{
@@ -13,6 +13,10 @@
     line-height: 30px;
     margin-right: 1px;
     font-size: 15px;
+}
+
+span[class='button'] p{
+    padding-left: 10px;
 }
 
 .more_button{
