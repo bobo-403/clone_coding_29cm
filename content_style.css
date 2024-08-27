@@ -20,12 +20,6 @@ img{
     margin-top: 80px;
 }
 
-hr{
-    width: 60%;
-    height: 4px;
-    background-color: black;
-    border: 0px;
-}
 
 .feed_image{
     padding-top: 30px;
@@ -71,4 +65,32 @@ hr{
 .heart{
     padding: 30px;
     border-left: 1px solid rgb(212, 203, 203);  
+}
+.slide_wrapper{
+    width: 330px;
+    padding: 0px 28px;
+    margin-top: 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.slide_wrapper img{
+    padding: 0px 75px;
+}
+
+.slide_flex{
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(78, 76, 76);
+}
+.prev{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+.next{
+    position: absolute;
+    top: 130px;
+    right: 30px;
 }
